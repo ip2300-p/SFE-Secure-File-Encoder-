@@ -37,12 +37,12 @@ SFE ابزاری برای رمزنگاری و رمزگشایی فایل‌ها �
 
 ```
 ┌───────────────────────────────────────────────────┐
-│ Magic "SFE1"                                      │ ۴ بایت
-│ نسخه (2) + الگوریتم (1)                           │ ۲ بایت
-│ Argon2: دورها، حافظه، موازی‌سازی                  │ ۱۲ بایت
-│ Salt (16) + Nonce (24) + MetaNonce (24)           │ ۶۴ بایت
-│ متادیتای رمزشده: نام‌فایل\0حجم (با پیشوند طول)    │ متغیر
-│ Chunkها: [طول][ciphertext+tag] ...                │ متغیر
+│ Magic "SFE1"                                      │ 4 B
+│ Version (2) + Algorithm (1)                       │ 2 B
+│ Argon2: iterations, memory, parallelism           │ 12 B
+│ Salt (16) + Nonce (24) + MetaNonce (24)           │ 64 B
+│ Encrypted metadata: filename\0size (len-prefixed) │ var
+│ Chunks: [len][ciphertext+tag] ...                 │ var
 └───────────────────────────────────────────────────┘
 ```
 
