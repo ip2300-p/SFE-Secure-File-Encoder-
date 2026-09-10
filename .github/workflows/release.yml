@@ -25,6 +25,16 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+            - name: Debug csproj contents
+        shell: pwsh
+        run: |
+          Write-Host "===== SFE.Core.csproj =====" -ForegroundColor Cyan
+          Get-Content "windows/SFE.Core/SFE.Core.csproj"
+          Write-Host "`n===== SFE.Services.csproj =====" -ForegroundColor Cyan
+          Get-Content "windows/SFE.Services/SFE.Services.csproj"
+          Write-Host "`n===== SFE.UI.csproj =====" -ForegroundColor Cyan
+          Get-Content "windows/SFE.UI/SFE.UI.csproj"
+
       - name: Setup .NET 8
         uses: actions/setup-dotnet@v4
         with:
