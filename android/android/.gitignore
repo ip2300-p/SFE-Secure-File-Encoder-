@@ -1,0 +1,14 @@
+# Caches
+/.gradle
+/captures/
+
+# Locals
+/local.properties
+
+# JAVA
+GeneratedPluginRegistrant.java
+
+# Privates
+key.properties
+**/*.keystore
+**/*.jks

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <!-- ═══ General ═══ -->
+  <string key="AppTitle">Secure File Encoder</string>
+  <string key="AppSubtitle">Secure File Encryption System</string>
+  <string key="Error">Error</string>
+  <string key="IsRTL">False</string>
+
+  <!-- ═══ Mode ═══ -->
+  <string key="ModeEncrypt">  Encrypt</string>
+  <string key="ModeDecrypt">  Decrypt</string>
+
+  <!-- ═══ File Selection ═══ -->
+  <string key="SelectOperation">Select Operation</string>
+  <string key="FilesOrFolder">Files or Folder</string>
+  <string key="SelectFile">  Select File</string>
+  <string key="SelectFolder">  Select Folder</string>
+  <string key="ClearFiles">✕  Clear</string>
+  <string key="DropHere">📂  Drop files here or use the buttons below</string>
+  <string key="FilesSelected">file(s) selected</string>
+  <string key="SelectedFilesList">Selected Files</string>
+
+  <!-- ═══ Password ═══ -->
+  <string key="Password">Password</string>
+  <string key="MainPassword">Main Password</string>
+  <string key="SecondPassword">Second Password</string>
+  <string key="PasswordStrength">Strength:</string>
+  <string key="Weak">Weak</string>
+  <string key="Medium">Medium</string>
+  <string key="Strong">Strong</string>
+  <string key="VeryStrong">Very Strong</string>
+
+  <!-- ═══ Output ═══ -->
+  <string key="OutputFolder">Output Folder</string>
+  <string key="SelectBtn">Browse</string>
+
+  <!-- ═══ Results ═══ -->
+  <string key="Results">Results</string>
+  <string key="ClearResults">Clear Results</string>
+
+  <!-- ═══ Main Buttons ═══ -->
+  <string key="Cancel">Cancel</string>
+  <string key="Ready">Ready</string>
+  <string key="Done">Done</string>
+  <string key="Encrypting">Encrypting...</string>
+  <string key="Decrypting">Decrypting...</string>
+
+  <!-- ═══ Messages ═══ -->
+  <string key="WarnSelectPath">⚠️ Please select a file or folder.</string>
+  <string key="WarnPassword">⚠️ Please enter a password.</string>
+  <string key="WarnSecondPassword">⚠️ Second password is required.</string>
+  <string key="WarnOutput">⚠️ Please select an output folder.</string>
+  <string key="Cancelling">Cancelling...</string>
+  <string key="AfterDecryptMsg">Decryption complete.
+Do you want to delete the encrypted source files?</string>
+  <string key="DeletedFiles">encrypted file(s) deleted.</string>
+  <string key="ErrorOccurred">Error occurred</string>
+  <string key="Successful">successful</string>
+  <string key="Failed">failed</string>
+
+  <!-- ═══ Settings ═══ -->
+  <string key="Settings"> Settings</string>
+  <string key="SettingsTitle">Settings</string>
+  <string key="Language">Language / زبان</string>
+  <string key="OutputFilename">Output Filename</string>
+  <string key="RandomizeName">Disguise filename</string>
+  <string key="NameStyle">Name style:</string>
+  <string key="NameStyleCache">cache_tmp_A3F2.tmp</string>
+  <string key="NameStyleData">data_cfg_B7D1.bin</string>
+  <string key="NameStyleGuid">Short GUID</string>
+  <string key="FileOps">File Operations</string>
+  <string key="DeleteOriginal">Delete original after encryption</string>
+  <string key="SecureDelete">Secure delete (3-pass overwrite)</string>
+  <string key="CreateBackup">Create encrypted backup (ZIP)</string>
+  <string key="BackupPath">Backup path:</string>
+  <string key="SelectBackupFolder">Select Backup Folder</string>
+  <string key="FileFilter">File Filter</string>
+  <string key="FilterAll">All Files</string>
+  <string key="FilterImages">🖼️ Images  (jpg, png, webp, heic...)</string>
+  <string key="FilterVideos">🎬 Videos  (mp4, mkv, avi...)</string>
+  <string key="FilterDocs">📄 Documents  (pdf, docx, xlsx...)</string>
+  <string key="FilterCustom">✏️ Custom</string>
+  <string key="FilterHint">Separate extensions with comma — e.g: jpg,png,pdf</string>
+  <string key="Security">Security</string>
+  <string key="SecuritySettings">Security Settings</string>
+  <string key="SecondPasswordCheck">Two-layer password</string>
+  <string key="SecondPasswordWarn">⚠️ If second password is forgotten, files cannot be recovered.</string>
+  <string key="SaveSettings">  Save Settings</string>
+  <string key="SelectPath">Browse</string>
+
+  <!-- ═══ Scenarios ═══ -->
+  <string key="Scenarios"> Scenarios</string>
+  <string key="ScenariosTitle"> Scenarios</string>
+  <string key="NewScenario">➕ New</string>
+  <string key="DeleteScenario"> Delete</string>
+  <string key="ScenarioName">Scenario Name</string>
+  <string key="OperationType">Operation Type</string>
+  <string key="SourcePaths">Source Paths</string>
+  <string key="AddFile">📄 File</string>
+  <string key="AddFolder">📁 Folder</string>
+  <string key="RemoveSelected">✕ Remove Selected</string>
+  <string key="SaveScenario">💾  Save Scenario</string>
+  <string key="RunScenario">▶  Quick Run</string>
+  <string key="SelectOrCreate">Select or create a scenario</string>
+  <string key="Editing">Editing:</string>
+  <string key="ConfirmDelete">Confirm Delete</string>
+  <string key="ConfirmDeleteMsg">Delete this scenario?</string>
+  <string key="ScenarioSaved">Scenario saved ✅</string>
+  <string key="EnterName">Please enter a scenario name.</string>
+  <string key="EnterSourcePaths">Please define source paths first.</string>
+  <string key="EnterOutput">Please define output folder first.</string>
+  <string key="LastRun">Last run:</string>
+
+  <!-- ═══ Password Window ═══ -->
+  <string key="PasswordWindowTitle">Password</string>
+  <string key="ScenarioPrefix">▶ Scenario</string>
+  <string key="EnterPassword">Enter password to run:</string>
+  <string key="SecondPasswordHint">Please also enter the second password</string>
+  <string key="Run">▶  Run</string>
+  <string key="Continue">Continue</string>
+  <string key="Cancel2">Cancel</string>
+  <string key="WarnEnterPassword">Please enter a password.</string>
+  <string key="WarnEnterSecondPassword">Please enter the second password.</string>
+  
+     <!-- ═══ UX Hints ═══ -->
+  <string key="OutputHint">Select a folder…</string>
+  <string key="SecondPasswordInfo">💡 This password is combined with the main password to build a second security layer; both are required to open the files.</string>
+  <string key="NameStyleCacheDesc">Names that look like Windows temporary files — completely inconspicuous</string>
+  <string key="NameStyleDataDesc">Names that look like system data files</string>
+  <string key="NameStyleGuidDesc">Fully random names with no pattern</string>
+  <string key="SecureDeleteDesc">Overwrites the file multiple times to prevent recovery by recovery tools</string>
+  <string key="FilterPlaceholder">e.g: jpg,png,pdf</string>
+
+  <string key="OpenFolder">📂 Open Output Folder</string>
+  
+  <!-- ═══ About ═══ -->
+  <string key="About">About</string>
+  <string key="AppDescription">A secure tool for encrypting and protecting your personal files</string>
+  <string key="Version">Version</string>
+  <string key="Developer">Developer</string>
+  <string key="License">License</string>
+  <string key="LicenseText">Free software — personal and commercial use allowed</string>
+  <string key="DeveloperName">ip2300</string>
+  <string key="Website">Website</string>
+  <string key="Contact">Contact</string>
+  <string key="Credits">Built with .NET</string>
+  <string key="CheckUpdates">Check for updates</string>
+  <string key="CopyVersion">Copy version</string>
+  <string key="VersionCopied">Version number copied to clipboard ✅</string>
+  <string key="GitHub">GitHub</string>
+  <string key="OpenGitHub">Open project page on GitHub</string>
+</strings>

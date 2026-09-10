@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<strings>
+  <!-- ═══ عمومی ═══ -->
+  <string key="AppTitle">Secure File Encoder</string>
+  <string key="AppSubtitle">سیستم رمزنگاری و حفاظت از اطلاعات</string>
+  <string key="Error">خطا</string>
+  <string key="IsRTL">True</string>
+
+  <!-- ═══ حالت ═══ -->
+  <string key="ModeEncrypt">  رمزنگاری</string>
+  <string key="ModeDecrypt">  رمزگشایی</string>
+
+  <!-- ═══ انتخاب فایل ═══ -->
+  <string key="SelectOperation">انتخاب عملیات</string>
+  <string key="FilesOrFolder">فایل‌ها یا پوشه</string>
+  <string key="SelectFile">  انتخاب فایل</string>
+  <string key="SelectFolder">  انتخاب پوشه</string>
+  <string key="ClearFiles">✕  پاک‌سازی</string>
+  <string key="DropHere">📂  فایل‌ها را اینجا رها کنید یا از دکمه‌ها انتخاب کنید</string>
+  <string key="FilesSelected">فایل انتخاب شده</string>
+  <string key="SelectedFilesList">لیست فایل‌های انتخابی</string>
+
+  <!-- ═══ رمز عبور ═══ -->
+  <string key="Password">رمز عبور</string>
+  <string key="MainPassword">رمز عبور اصلی</string>
+  <string key="SecondPassword">رمز عبور دوم</string>
+  <string key="PasswordStrength">قدرت:</string>
+  <string key="Weak">ضعیف</string>
+  <string key="Medium">متوسط</string>
+  <string key="Strong">قوی</string>
+  <string key="VeryStrong">خیلی قوی</string>
+
+  <!-- ═══ خروجی ═══ -->
+  <string key="OutputFolder">مسیر خروجی</string>
+  <string key="SelectBtn">انتخاب</string>
+
+  <!-- ═══ نتایج ═══ -->
+  <string key="Results">نتایج</string>
+  <string key="ClearResults">پاک کردن نتایج</string>
+
+  <!-- ═══ دکمه‌های اصلی ═══ -->
+  <string key="Cancel">لغو</string>
+  <string key="Ready">آماده</string>
+  <string key="Done">تمام شد</string>
+  <string key="Encrypting">در حال رمزنگاری...</string>
+  <string key="Decrypting">در حال رمزگشایی...</string>
+
+  <!-- ═══ پیام‌ها ═══ -->
+  <string key="WarnSelectPath">⚠️ لطفاً فایل یا پوشه انتخاب کنید.</string>
+  <string key="WarnPassword">⚠️ لطفاً رمز عبور وارد کنید.</string>
+  <string key="WarnSecondPassword">⚠️ رمز عبور دوم الزامی است.</string>
+  <string key="WarnOutput">⚠️ لطفاً پوشه خروجی انتخاب کنید.</string>
+  <string key="Cancelling">در حال لغو...</string>
+  <string key="AfterDecryptMsg">عملیات رمزگشایی تمام شد.
+آیا می‌خواهید فایل‌های رمز شده را حذف کنید؟</string>
+  <string key="DeletedFiles">فایل رمز شده حذف شد.</string>
+  <string key="ErrorOccurred">خطا رخ داد</string>
+  <string key="Successful">موفق</string>
+  <string key="Failed">ناموفق</string>
+
+  <!-- ═══ تنظیمات ═══ -->
+  <string key="Settings"> تنظیمات</string>
+  <string key="SettingsTitle">تنظیمات</string>
+  <string key="Language">زبان / Language</string>
+  <string key="OutputFilename">نام فایل خروجی</string>
+  <string key="RandomizeName">تغییر نام به فرمت مبدل</string>
+  <string key="NameStyle">سبک نام:</string>
+  <string key="NameStyleCache">cache_tmp_A3F2.tmp</string>
+  <string key="NameStyleData">data_cfg_B7D1.bin</string>
+  <string key="NameStyleGuid">GUID کوتاه</string>
+  <string key="FileOps">عملیات فایل</string>
+  <string key="DeleteOriginal">حذف فایل اصلی بعد از رمزنگاری</string>
+  <string key="SecureDelete">حذف امن (بازنویسی ۳ مرحله‌ای)</string>
+  <string key="CreateBackup">ساخت بکاپ رمزدار (ZIP) قبل از رمزنگاری</string>
+  <string key="BackupPath">مسیر ذخیره بکاپ:</string>
+  <string key="SelectBackupFolder">انتخاب پوشه بکاپ</string>
+  <string key="FileFilter">فیلتر فایل‌ها</string>
+  <string key="FilterAll">همه فایل‌ها</string>
+  <string key="FilterImages">🖼️ تصاویر  (jpg, png, webp, heic...)</string>
+  <string key="FilterVideos">🎬 ویدیو  (mp4, mkv, avi...)</string>
+  <string key="FilterDocs">📄 اسناد  (pdf, docx, xlsx...)</string>
+  <string key="FilterCustom">✏️ دلخواه</string>
+  <string key="FilterHint">پسوندها را با کاما جدا کنید — مثال: jpg,png,pdf</string>
+  <string key="Security">امنیت</string>
+  <string key="SecuritySettings">تنظیمات امنیت</string>
+  <string key="SecondPasswordCheck">رمز عبور دو لایه</string>
+  <string key="SecondPasswordWarn">⚠️ اگر رمز دوم فراموش شود، فایل‌ها غیرقابل بازیابی هستند.</string>
+  <string key="SaveSettings">  ذخیره تنظیمات</string>
+  <string key="SelectPath">انتخاب</string>
+
+  <!-- ═══ سناریوها ═══ -->
+  <string key="Scenarios"> سناریوها</string>
+  <string key="ScenariosTitle"> سناریوها</string>
+  <string key="NewScenario">➕ جدید</string>
+  <string key="DeleteScenario"> حذف</string>
+  <string key="ScenarioName">نام سناریو</string>
+  <string key="OperationType">نوع عملیات</string>
+  <string key="SourcePaths">مسیرهای مبدا</string>
+  <string key="AddFile">📄 فایل</string>
+  <string key="AddFolder">📁 پوشه</string>
+  <string key="RemoveSelected">✕ حذف انتخابی</string>
+  <string key="SaveScenario">💾  ذخیره سناریو</string>
+  <string key="RunScenario">▶  اجرای سریع</string>
+  <string key="SelectOrCreate">یک سناریو انتخاب یا ایجاد کنید</string>
+  <string key="Editing">ویرایش:</string>
+  <string key="ConfirmDelete">تأیید حذف</string>
+  <string key="ConfirmDeleteMsg">سناریو حذف شود؟</string>
+  <string key="ScenarioSaved">سناریو ذخیره شد ✅</string>
+  <string key="EnterName">لطفاً نام سناریو را وارد کنید.</string>
+  <string key="EnterSourcePaths">لطفاً ابتدا مسیرهای مبدا را تعریف کنید.</string>
+  <string key="EnterOutput">لطفاً ابتدا پوشه خروجی را تعریف کنید.</string>
+  <string key="LastRun">آخرین اجرا:</string>
+
+  <!-- ═══ پنجره رمز ═══ -->
+  <string key="PasswordWindowTitle">رمز عبور</string>
+  <string key="ScenarioPrefix">▶ سناریو</string>
+  <string key="EnterPassword">برای اجرا رمز عبور را وارد کنید:</string>
+  <string key="SecondPasswordHint">لطفاً رمز دوم را نیز وارد کنید</string>
+  <string key="Run">▶  اجرا</string>
+  <string key="Continue">ادامه</string>
+  <string key="Cancel2">انصراف</string>
+  <string key="WarnEnterPassword">لطفاً رمز عبور را وارد کنید.</string>
+  <string key="WarnEnterSecondPassword">لطفاً رمز عبور دوم را وارد کنید.</string>
+  
+  <!-- ═══ راهنماهای UX ═══ -->
+  <string key="OutputHint">مسیری را انتخاب کنید…</string>
+  <string key="SecondPasswordInfo">💡 این رمز با رمز اصلی ترکیب می‌شود و یک لایه امنیتی دوم می‌سازد؛ برای باز کردن فایل‌ها هر دو رمز لازم است.</string>
+  <string key="NameStyleCacheDesc">نام‌هایی شبیه فایل‌های موقت ویندوز — کاملاً نامحسوس</string>
+  <string key="NameStyleDataDesc">نام‌هایی شبیه فایل‌های دادهٔ سیستمی</string>
+  <string key="NameStyleGuidDesc">نام‌های کاملاً تصادفی بدون هیچ الگو</string>
+  <string key="SecureDeleteDesc">بازنویسی چندبارهٔ فایل برای جلوگیری از بازیابی توسط نرم‌افزارهای ریکاوری</string>
+  <string key="FilterPlaceholder">مثال: jpg,png,pdf</string>
+
+  <string key="OpenFolder">📂 باز کردن پوشه خروجی</string>
+  
+    <!-- ═══ درباره برنامه ═══ -->
+  <string key="About">درباره برنامه</string>
+  <string key="AppDescription">ابزار امن رمزنگاری و حفاظت از فایل‌های شخصی شما</string>
+  <string key="Version">نسخه</string>
+  <string key="Developer">توسعه‌دهنده</string>
+  <string key="License">مجوز</string>
+  <string key="LicenseText">نرم‌افزار آزاد - استفادهٔ شخصی و تجاری آزاد است</string>
+  <string key="DeveloperName">ip2300</string>
+  <string key="Website">وب‌سایت</string>
+  <string key="Contact">تماس</string>
+  <string key="Credits">ساخته شده با .NET</string>
+  <string key="CheckUpdates">بررسی به‌روزرسانی</string>
+  <string key="CopyVersion">کپی نسخه</string>
+  <string key="VersionCopied">شماره نسخه در کلیپ‌بورد کپی شد ✅</string>
+  <string key="GitHub">گیت‌هاب</string>
+  <string key="OpenGitHub">باز کردن صفحه پروژه در گیت‌هاب</string>
+</strings>

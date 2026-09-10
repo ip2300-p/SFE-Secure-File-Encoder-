@@ -1,0 +1,28 @@
+# ── Win ──
+bin/
+obj/
+.vs/
+*.user
+*.suo
+packages/
+
+# ── Flutter ──
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.pub-cache/
+build/
+.gradle/
+.kotlin/
+.idea/
+*.iml
+
+# ── Privates ──
+local.properties
+key.properties
+*.jks
+*.keystore
+
+# ── OS ──
+Thumbs.db
+.DS_Store

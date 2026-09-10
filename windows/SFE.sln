@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFE.Core", "SFE.Core\SFE.Core.csproj", "{8F8621BE-FBFC-4946-B57C-E5F0ED356EAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFE.Services", "SFE.Services\SFE.Services.csproj", "{79B8F6B2-EDC1-4BA3-AFFC-832AD35ABAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SFE.UI", "SFE.UI\SFE.UI.csproj", "{3EF3EC0C-B76F-4FD3-98DE-12139DAEA5F2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F8621BE-FBFC-4946-B57C-E5F0ED356EAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F8621BE-FBFC-4946-B57C-E5F0ED356EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F8621BE-FBFC-4946-B57C-E5F0ED356EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F8621BE-FBFC-4946-B57C-E5F0ED356EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79B8F6B2-EDC1-4BA3-AFFC-832AD35ABAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79B8F6B2-EDC1-4BA3-AFFC-832AD35ABAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79B8F6B2-EDC1-4BA3-AFFC-832AD35ABAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79B8F6B2-EDC1-4BA3-AFFC-832AD35ABAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EF3EC0C-B76F-4FD3-98DE-12139DAEA5F2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EF3EC0C-B76F-4FD3-98DE-12139DAEA5F2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EF3EC0C-B76F-4FD3-98DE-12139DAEA5F2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EF3EC0C-B76F-4FD3-98DE-12139DAEA5F2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
