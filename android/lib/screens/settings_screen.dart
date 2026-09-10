@@ -313,7 +313,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                   Padding(
                     padding: const EdgeInsets.fromLTRB(16, 0, 16, 12),
                     child: DropdownButtonFormField<int>(
-                      initialValue: _nameStyleIndex,
+                      value: _nameStyleIndex,
                       decoration: const InputDecoration(
                         isDense: true,
                         border: OutlineInputBorder(),
