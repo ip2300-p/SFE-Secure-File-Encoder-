@@ -1,15 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\SFE.Core\SFE.Core.csproj" />
-    <ProjectReference Include="..\SFE.Services\SFE.Services.csproj" />
-  </ItemGroup>
-  
-<ItemGroup>
-    <Resource Include="Assets\Fonts\Vazirmatn-Regular.ttf" />
-    <Resource Include="Assets\Fonts\Vazirmatn-Bold.ttf" />
-  </ItemGroup>
-
   <PropertyGroup>
     <Version>1.1.0</Version>
     <OutputType>WinExe</OutputType>
@@ -21,13 +11,23 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SFE.Core\SFE.Core.csproj" />
+    <ProjectReference Include="..\SFE.Services\SFE.Services.csproj" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <Resource Include="Assets\Fonts\Vazirmatn-Regular.ttf" />
+    <Resource Include="Assets\Fonts\Vazirmatn-Bold.ttf" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Include="lang\fa.xml">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <Content Include="lang\en.xml">
         <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-</ItemGroup>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
