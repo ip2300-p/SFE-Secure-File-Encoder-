@@ -27,8 +27,10 @@ jobs:
 
       - name: Setup .NET 8
         uses: actions/setup-dotnet@v4
-        
-        - name: Debug csproj contents
+        with:
+          dotnet-version: '8.0.x'
+
+      - name: Debug csproj contents
         shell: pwsh
         run: |
           Write-Host "===== SFE.Core.csproj =====" -ForegroundColor Cyan
@@ -37,8 +39,6 @@ jobs:
           Get-Content "windows/SFE.Services/SFE.Services.csproj"
           Write-Host "`n===== SFE.UI.csproj =====" -ForegroundColor Cyan
           Get-Content "windows/SFE.UI/SFE.UI.csproj"
-        with:
-          dotnet-version: '8.0.x'
 
       - name: Publish self-contained
         run: dotnet publish windows/SFE.UI/SFE.UI.csproj -c Release -r win-x64 --self-contained true -o publish/win-x64
