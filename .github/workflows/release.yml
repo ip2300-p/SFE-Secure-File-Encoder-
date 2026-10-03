@@ -33,6 +33,9 @@ jobs:
       - name: Show .NET info
         run: dotnet --info
 
+      - name: Clear NuGet cache
+        run: dotnet nuget locals all --clear
+
       - name: Restore Windows project
         run: dotnet restore windows/SFE.UI/SFE.UI.csproj
 
