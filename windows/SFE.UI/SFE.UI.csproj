@@ -1,5 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
-
+<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
   <PropertyGroup>
     <Version>1.1.0</Version>
     <OutputType>WinExe</OutputType>
@@ -9,17 +8,14 @@
     <UseWPF>true</UseWPF>
     <ApplicationIcon>app.ico</ApplicationIcon>
   </PropertyGroup>
-
   <ItemGroup>
     <ProjectReference Include="..\SFE.Core\SFE.Core.csproj" />
     <ProjectReference Include="..\SFE.Services\SFE.Services.csproj" />
   </ItemGroup>
-
   <ItemGroup>
     <Resource Include="Assets\Fonts\Vazirmatn-Regular.ttf" />
     <Resource Include="Assets\Fonts\Vazirmatn-Bold.ttf" />
   </ItemGroup>
-
   <ItemGroup>
     <Content Include="lang\fa.xml">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -28,10 +24,8 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>
-
   <ItemGroup>
     <PackageReference Include="CommunityToolkit.Mvvm" Version="8.4.2" />
     <PackageReference Include="WPF-UI" Version="4.3.0" />
   </ItemGroup>
-
 </Project>
