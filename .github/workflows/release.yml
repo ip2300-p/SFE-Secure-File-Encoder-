@@ -34,10 +34,10 @@ jobs:
         run: dotnet --info
 
       - name: Restore Windows project
-        run: dotnet restore windows/SFE.sln
+        run: dotnet restore windows/SFE.UI/SFE.UI.csproj
 
       - name: Publish Windows x64
-        run: dotnet publish windows/SFE.UI/SFE.UI.csproj -c Release -f net8.0-windows -r win-x64 --self-contained true --no-restore -o publish/win-x64
+        run: dotnet publish windows/SFE.UI/SFE.UI.csproj -c Release -f net8.0-windows7.0 -r win-x64 --self-contained true --no-restore -o publish/win-x64
 
       - name: Ensure lang folder is present
         shell: pwsh
