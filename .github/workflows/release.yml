@@ -90,7 +90,7 @@ jobs:
         run: flutter pub get
 
       - name: Prepare signing from secrets
-        working-directory: android/android
+        working-directory: android
         env:
           KEYSTORE_BASE64: ${{ secrets.KEYSTORE_BASE64 }}
           KEYSTORE_PASSWORD: ${{ secrets.KEYSTORE_PASSWORD }}
